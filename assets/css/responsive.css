@@ -5,12 +5,26 @@
   .top-header {
     padding: 5px 0 5px;
   }
-  .hero .slide-content {
+	.ladeo{
+		margin-top: auto;
+	}
+  .ladeo .ladeo-ani {
     min-height: 700px;
-  }
-  .hero .slide-content h1 {
-    margin-top: 100px;
-  }
+	justify-content: center;
+  } 
+	.ladeo-ani p {
+	margin-top: 120px;
+	}
+	.ladeo-ani h1 {
+		font-size: 38px;
+	}
+	.ladeo .container .ladeo-ani {
+	align-content: center;
+	justify-content: center;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
   .recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb {
     margin-top: 0;
     margin-left: 25px;
@@ -69,49 +83,15 @@
   .navbar-collapse .nav-link:hover::before {
     opacity: 1;
   }
-  .navbar-collapse .search-form {
-    padding: 10px;
-    position: absolute;
-    right: 0;
-    top: 100%;
-    display: none;
-    opacity: 0;
-    transition: all 0.35s ease-in-out;
-  }
-  .navbar-collapse .search-form.show {
-    display: block;
-    opacity: 1;
-  }
-  .navbar-collapse .search-form input[type="text"] {
-    border: 1px solid #ced4da;
-    color: #343a40;
-    padding: 1.5313rem 0.625rem;
-  }
-  .navbar-collapse .search-form .btn {
-    margin-top: 0;
-  }
-  .navbar-collapse .search-form input[type="submit"] {
-    border: 1px solid #ced4da;
-    margin-left: -1px;
-    border-radius: 0;
-  }
   .group {
     order: 2;
   }
-  .cart,
-  .search-icon {
-    font-size: 0.875rem;
-  }
-  .cart:hover,
-  .search-icon:hover {
-    color: #ee1515;
-  }
-  .search-icon {
-    margin: 0 13px;
-    order: 1;
-  }
-  .hero .slide-content h1 {
-    font-size: 3.5rem;
+  .ladeo .ladeo-ani {
+    min-height: 700px;
+	width: 75%;
+	  margin: 0px;
+	  padding-left: 20px;
+	justify-content: center;
   }
   .hero .slide-content br {
     display: block;
@@ -136,6 +116,17 @@
     align-self: flex-end;
     margin-right: 30px;
   }
+	  .ladeo-ani  p {
+    margin-top: 120px;
+	padding-left: 0px;
+	font-size: 24px;
+  }
+	.ladeo-ani h1 {
+		font-size: 48px;
+	}
+	.ladeo-ani small {
+		font-size: 24px;
+	}
 }
 
 /*-----------------------------------
@@ -148,19 +139,23 @@
   .navbar-expand-md .navbar-nav .nav-item {
     margin-right: 0px;
   }
-  .hero .slide-content {
+  .ladeo .ladeo-ani {
     min-height: 100vh;
+	align-content: center;
+	justify-content: center;
   }
-  .hero .slide-content h1 {
-    font-size: 4.5rem;
+  .ladeo-ani  p {
+    margin-top: 120px;
+	padding-left: 0px;
+	font-size: 32px;
+	text-align: center;
   }
-  .hero .slide-content br {
-    display: block;
-  }
-  .hero .arr-left,
-  .hero .arr-right {
-    top: 50%;
-  }
+  .ladeo-ani h1 {
+		font-size: 100px;
+	}
+	.ladeo-ani small {
+		font-size: 32px;
+	}
   .title h1 {
     font-size: 48px;
   }

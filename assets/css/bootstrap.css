@@ -211,8 +211,9 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+    vertical-align: middle;
+    border-style: none;
+    border-width: 20%;
 }
 
 svg {
@@ -681,6 +682,7 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
+height: 75%;
   padding-right: 15px;
   padding-left: 15px;
 }
