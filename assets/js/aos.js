@@ -1,33 +1,39 @@
 var myIndexP = 0;
 trn();
-var t = 0;
 
 function trn() {
   var i;
   var x = document.getElementsByClassName("mSld");
-  var y = document.querySelector(".ladeo-ani p");
+  var z = document.getElementsByClassName("ladeo-ani");
+  var u = document.querySelectorAll("p.ld");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
- if (t == 0) {
-	y.style.color = "#9903AD";
-	y.style['-webkit-text-stroke-width'] = "1.5px";
-	y.style['text-shadow'] = "0px 5px 4px  #9903AD";
-	t += 3;
-} else if (t > 2) {
-	y.style.color = "#33cc33";
-	y.style['-webkit-text-stroke-width'] = "2px";
-	y.style['text-shadow'] = "5px 2px 1px  #33cc33";
-	t = 0;
-}
+	z[i].style.display = "none";
   }
-    myIndexP++;
+	myIndexP++;
+
   if (myIndexP > x.length) {
 	myIndexP = 1;
   }
+	if ((myIndexP - 1) == 0) {
+		u[myIndexP - 1].style.color = "#9903AD"
+		u[myIndexP - 1].style['-webkit-text-stroke-width'] = "1px";
+		u[myIndexP - 1].style['text-shadow'] = "3px 5px 4px  #808080";
+	} else if ((myIndexP - 1) == 1) {
+		u[myIndexP - 1].style.color = "#33cc33";
+		u[myIndexP - 1].style['-webkit-text-stroke-width'] = "1px";
+		u[myIndexP - 1].style['text-shadow'] = "5px 5px 4px  #33cc33";
+	} else if ((myIndexP - 1) == 2) {
+		u[myIndexP - 1].style.color = "#FFFD09"
+		u[myIndexP - 1].style['-webkit-text-stroke-width'] = "0.5px";
+		u[myIndexP - 1].style['text-shadow'] = "5px 5px 4px  #FFFD09";
+	}
   x[myIndexP-1].style.display = "flex";
+  z[myIndexP-1].style.display = "inline-block";
   
   setTimeout(trn, 5000); // Change image every 2 seconds
 }
+
 
 ! function (e, t) {
   "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.AOS = t() : e.AOS = t()
