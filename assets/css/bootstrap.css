@@ -2333,7 +2333,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(238, 21, 21, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 21, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -2346,25 +2346,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #ee1515;
-  border-color: #ee1515;
+  color: #12C910;
+  background-color: #F0FF09;
+  border-color: #DFFD00;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ee1515;
-  border-color: #c20e0e;
+  background-color: #F9FF1E;
+  border-color: #F9FF1E
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(241, 56, 56, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 56, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #ee1515;
-  border-color: #ee1515;
+  background-color: #DFFD00;
+  border-color: #DFFD00;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,

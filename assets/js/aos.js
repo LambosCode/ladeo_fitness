@@ -26,7 +26,7 @@ function trn() {
 	} else if ((myIndexP - 1) == 2) {
 		u[myIndexP - 1].style.color = "#FFFD09"
 		u[myIndexP - 1].style['-webkit-text-stroke-width'] = "0.5px";
-		u[myIndexP - 1].style['text-shadow'] = "5px 5px 4px  #FFFD09";
+		u[myIndexP - 1].style['text-shadow'] = "5px 5px 4px  #808080";
 	}
   x[myIndexP-1].style.display = "flex";
   z[myIndexP-1].style.display = "inline-block";
