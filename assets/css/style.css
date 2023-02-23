@@ -307,6 +307,31 @@ header a {
 /*-----------------------------------
     1 - Services
 ------------------------------------*/
+.abt_sct {
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+}
+.abt_sct .abt_img img{
+	margin-top: 20px;
+	width: 620px;
+	padding-left: 100px;
+	position: absolute;
+}
+.abt_all {
+	position: relative;
+	left: 650px;
+	padding-top: 150px;
+}
+
+.abt_str {
+	padding-left: 10px;
+	width: 35%;
+	border-left-width: medium;
+	border-left-color: #720090;
+	border-left-style: solid;
+}
+
 .title {
   font-weight: 700;
   text-transform: uppercase;
